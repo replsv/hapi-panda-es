@@ -1,0 +1,32 @@
+{
+  "name": "hapi-panda-es",
+  "version": "0.1.0",
+  "description": "Hapi17 plugin for panda-es-orm",
+  "main": "src/lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/replsv/hapi-panda-es.git"
+  },
+  "keywords": [
+    "elasticsearch",
+    "hapi17",
+    "plugin",
+    "orm"
+  ],
+  "engines": {
+    "node": ">= 8"
+  },
+  "author": "Gabriel C <shellcooking@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/replsv/hapi-panda-es/issues"
+  },
+  "homepage": "https://github.com/replsv/hapi-panda-es#readme",
+  "dependencies": {
+    "joi": "^13.1.1",
+    "panda-es-orm": "^0.0.1"
+  }
+}
