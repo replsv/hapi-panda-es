@@ -28,9 +28,9 @@
       }
     },
     "panda-es-orm": {
-      "version": "0.0.1",
-      "resolved": "https://registry.npmjs.org/panda-es-orm/-/panda-es-orm-0.0.1.tgz",
-      "integrity": "sha512-dOD3sxopYqbhWTsCHN4RSq0TF98vegJj8/WZpR3IoU+p/Z86VqD/fQpNFjCPJJYV7yf4ThsLlapJak0X6XYB9g==",
+      "version": "0.1.0",
+      "resolved": "https://registry.npmjs.org/panda-es-orm/-/panda-es-orm-0.1.0.tgz",
+      "integrity": "sha512-Bm/U/3bF1RTf0GMZVdhG4Lx8C8uI7wycnWCCsBEL3UASj3upt9prZzguH+irTy9I8tkHzOWTiJmx3HDOC1Wm0g==",
       "requires": {
         "elasticsearch": "14.0.0",
         "joi": "13.1.0",
