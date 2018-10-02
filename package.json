@@ -1,6 +1,6 @@
 {
   "name": "hapi-panda-es",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Hapi17 plugin for panda-es-orm",
   "main": "src/lib/index.js",
   "scripts": {
@@ -27,6 +27,6 @@
   "homepage": "https://github.com/replsv/hapi-panda-es#readme",
   "dependencies": {
     "joi": "^13.1.1",
-    "panda-es-orm": "^0.1.0"
+    "panda-es-orm": "^0.2.0"
   }
 }
