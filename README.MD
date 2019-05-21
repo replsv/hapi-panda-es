@@ -47,3 +47,6 @@ Browse the nodeJS' examples dir as you might get a flavour on how to use it. Do 
 - panda-es-orm ^0.1.0
 - hapi ^17.0.0
 - node >= 8
+
+## Versions
+- 0.1.* -> supports Hapi17 and ES5 / ES6
