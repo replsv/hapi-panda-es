@@ -6,7 +6,7 @@ Briefly, it ain't a story about a happy panda bear, but it's actually a plugin w
 
 The configuration follows the reference in the panda-es-orm node module.
 
-https://github.com/replsv/panda-es-orm#configuration
+https://github.com/replsv/panda-es-orm/tree/elasticsearch7#configuration
 
 Eg.
 ```js
@@ -19,7 +19,8 @@ my-manifest.json
             "plugin": "hapi-panda-es",
             "options": {
               "connection": {
-                "host": ["10.10.10.19:9204"]
+                "node": "http://10.10.10.19:9204",
+                "version": 7
               },
               "logger": {
                 "level": 10
@@ -50,3 +51,4 @@ Browse the nodeJS' examples dir as you might get a flavour on how to use it. Do 
 
 ## Versions
 - 0.1.* -> supports Hapi17 and ES5 / ES6
+- 1.0.* -> supports Hapi18 and ES5 / ES6 / ES7

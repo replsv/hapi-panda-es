@@ -1,7 +1,7 @@
 {
   "name": "hapi-panda-es",
-  "version": "0.1.2",
-  "description": "Hapi17 plugin for panda-es-orm",
+  "version": "1.0.0",
+  "description": "Hapi18 plugin for panda-es-orm",
   "main": "src/lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,8 +11,8 @@
     "url": "git+https://github.com/replsv/hapi-panda-es.git"
   },
   "keywords": [
-    "elasticsearch",
-    "hapi17",
+    "elasticsearch7",
+    "hapi18",
     "plugin",
     "orm"
   ],
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/replsv/hapi-panda-es#readme",
   "dependencies": {
-    "joi": "^13.1.1",
-    "panda-es-orm": "^0.2.0"
+    "@hapi/joi": "^15.0.3",
+    "panda-es-orm": "^1.0.0"
   }
 }

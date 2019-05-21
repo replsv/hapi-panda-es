@@ -13,13 +13,7 @@ module.exports = async (server) => {
     collection.forEach((modelOptions) => {
 
         // attach model over the ORM instance
-        models[modelOptions.name] = new pandaEs.model(
-            modelOptions.name,
-            modelOptions.index,
-            modelOptions.type,
-            modelOptions.idKey,
-            modelOptions.validation
-        );
+        models[modelOptions.name] = new pandaEs.model(modelOptions);
 
         // attach listeners
         if (modelOptions.listeners) {

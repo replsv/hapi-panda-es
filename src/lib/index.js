@@ -1,6 +1,6 @@
 'use strict';
 
-const Joi = require('joi');
+const Joi = require('@hapi/joi');
 const PandaEs = require('panda-es-orm');
 
 // define a log tag
@@ -31,6 +31,8 @@ module.exports = {
         const connect = async (params) => {
 
             const exposed = new PandaEs.orm(params);
+
+            await exposed.connect();
 
             server.decorate('server', 'pandaEs', PandaEs); // expose the entire plugin
             server.decorate('server', 'pandaEsOrm', exposed); // expose only the ORM instance

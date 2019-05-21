@@ -1,6 +1,6 @@
 'use strict';
 
-const Joi = require('joi');
+const Joi = require('@hapi/joi');
 
 // define some constants
 const statusEventNew = 1,
@@ -25,7 +25,6 @@ const schemaValidation = Joi
 module.exports = {
     name: 'EventModel',
     index: 'events',
-    type: false, // use generateTypeByDate()
     idKey: 'id',
     validation: schemaValidation,
     listeners: {
