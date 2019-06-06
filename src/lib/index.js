@@ -45,7 +45,7 @@ module.exports = {
             server.log([LogTag, 'info'], 'Server stopped');
         });
 
-        connect(options);
+        await connect(options);
     },
 
     /**
