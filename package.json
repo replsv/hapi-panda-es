@@ -1,6 +1,6 @@
 {
   "name": "hapi-panda-es",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Hapi18 plugin for panda-es-orm",
   "main": "src/lib/index.js",
   "scripts": {
