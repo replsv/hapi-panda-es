@@ -27,6 +27,6 @@
   "homepage": "https://github.com/replsv/hapi-panda-es#readme",
   "dependencies": {
     "joi": "^13.1.1",
-    "panda-es-orm": "^0.2.0"
+    "panda-es-orm": "^1.0.0"
   }
 }
